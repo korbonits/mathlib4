@@ -34,10 +34,14 @@ This file defines `LocallyContractibleSpace` and `StronglyLocallyContractibleSpa
   are strongly locally contractible
 * Products of strongly locally contractible spaces are strongly locally contractible
 
+See `Mathlib/Analysis/Convex/Contractible.lean` for convex sets and locally convex spaces.
+
 ## TODO
 
 * Define contractible components and prove they are open in strongly locally contractible spaces
-* Add examples: convex sets, real vector spaces, star-shaped sets
+* Show that every real topological vector space (not just locally convex ones, see
+  `LocallyConvexSpace.toStronglyLocallyContractibleSpace`) is strongly locally contractible,
+  using a basis of balanced neighborhoods
 
 ## Notes
 
